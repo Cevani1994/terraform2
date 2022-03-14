@@ -10,6 +10,9 @@ resource "azurerm_network_interface" "terraform-test-1" {
   }
 }
 
+
+
+
 resource "azurerm_linux_virtual_machine" "terraform-test-1" {
   name                = "terraform-machine-1"
   resource_group_name = azurerm_resource_group.terraform-test-1.name
