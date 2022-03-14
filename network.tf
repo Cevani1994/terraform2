@@ -12,7 +12,7 @@ resource "azurerm_subnet" "terraform-test-1" {
   virtual_network_name = azurerm_virtual_network.terraform-test-1.name
   address_prefixes     = ["10.0.0.0/24"]
 }
-
+midis tirone ca bone me lale
  resource "azurerm_public_ip" "terraform-test-1" {
    name                         = "publicIPForTerraformVM"
    location                     = azurerm_resource_group.terraform-test-1.location
